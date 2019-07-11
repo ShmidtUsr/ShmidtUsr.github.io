@@ -1,3 +1,3 @@
 # Вадим Шевцов
 
-[plasterLanding](https://github.com/ShmidtUsr/ShmidtUsr.github.io/tree/master/plasterLanding "Exemple Landing 1")
+[plasterLanding](https://shmidtusr.github.io/plasterLanding/ "Exemple Landing 1")
