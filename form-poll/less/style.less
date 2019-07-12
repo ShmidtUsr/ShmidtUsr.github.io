@@ -1,0 +1,209 @@
+/*Fonts family*/
+
+
+/* Colors */
+@bg-color: #f8f8f8;
+@header-bg: #ebb258;
+@light: #ffffff;
+@btn-color: #d6a81e;
+@gray: #aaaaa8;
+
+/*Basic settings*/
+html {
+	font-style: 10px;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: @bg-color;
+	h5 {
+			font-size: 1.8rem;
+		}
+		span {
+			font-size: 1.2rem;
+		}
+}
+
+.container {
+/*	background-color: @light;*/
+}
+
+.row {
+	padding-top: none;
+	&-header {
+		background-color: @header-bg;
+		padding: 4rem;
+	}
+	&-content {
+		background-color: @light;
+		padding: 2rem 3rem 0rem 3rem;
+	}
+}
+
+/*Typography*/
+
+.cont {
+	/*max-width: 45rem;*/
+	background-color: @light;
+}
+
+.main {
+	
+}
+
+.main-header {
+	background-color: @header-bg;
+	h2 {
+		text-align: center;
+		color: @light;
+		font-size: 3rem;
+		display: inline-block;
+		
+	}
+}
+
+.main-content {
+	display: inline-block;
+	background-color: @light;
+	span {
+		padding-bottom: 3rem;
+		display: block;
+	}
+	p {
+		text-align: left;
+	}
+}
+
+
+
+
+
+.unsubscribe {
+	text-align: center;
+	&-link {
+		color: @gray;
+		&:hover {
+			color: darken(@gray, 20%);
+		}
+	}
+}
+
+.event {
+	text-align: center;
+	
+}
+
+.poll {
+		text-align: left;
+		background-color: @light;
+		display: inline-block;
+		strong {
+			color: red;
+		}
+		&-event {
+			padding-top: none;
+			min-width: 45rem;
+			p {
+				display: inline-block;
+				padding: 0 1.5rem 0 1.5rem;
+				font-size: 1.4rem;
+
+				
+			}
+			input {
+				display: inline-block;
+				min-width: 1.5rem;
+				max-height: 1rem;
+			}
+			&-number {
+				display: inline-block;
+				padding-left: 2.7rem;
+				padding-bottom: none;
+				p {
+					display: inline-block;
+					font-size: 1.6rem;	
+					min-width: 1.5rem;
+					margin-bottom: 0px;
+				}
+			}
+		}
+
+		&-radio {
+			display: inline-block;
+			&-number {
+				padding-left: 17.5rem;
+				min-width: 45rem;
+				p {
+					display: inline-block;
+					min-width: 5rem;
+				}
+				
+			}
+			input {
+				min-width: 5rem;
+			}
+			&-span {
+				font-size: 1.5rem;
+				display: inline-block;
+				min-width: 15rem;
+				display: inline-block;
+			}
+			&-aspects {
+
+			}
+			&-programm{
+
+			}
+			&-leading {
+
+			}
+		}
+}
+
+/*.submit-btn {
+	display: block;
+	text-align: center;
+	background-color: @btn-color; 
+}*/
+
+.submit-popup {
+	text-align: center;
+	padding: 2rem 0 3rem 0;
+	
+}
+
+.submit-button {
+	display: inline-block;
+	text-align: center;
+	
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	background-color: @btn-color;
+	color: @light;
+	border: none;
+	font-size: 1.2rem;
+	&:hover {
+		cursor: pointer;
+		background-color: darken(@btn-color, 10%);
+	}
+}
+
+.text-input {
+	border: none;
+	border-bottom: 1px solid @gray;
+	outline-color: @btn-color;
+	&:focus {
+		border:none;
+		box-shadow: none;
+	}
+	min-width: 47rem;
+}
+
+
+/*Медиа-запросы*/
+
+@media (max-width: 767px) {
+	.container {
+		padding-left: 1.5rem;
+}
+}
