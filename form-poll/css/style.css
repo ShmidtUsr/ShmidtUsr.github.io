@@ -6,7 +6,7 @@ html {
 }
 body {
   font-family: sans-serif;
-  background-color: #f8f8f8;
+  background-color: #f3f3f3;
 }
 body h5 {
   font-size: 1.8rem;
@@ -83,7 +83,7 @@ body span {
 .poll-event p {
   display: inline-block;
   padding: 0 1.5rem 0 1.5rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .poll-event input {
   display: inline-block;
@@ -105,7 +105,7 @@ body span {
   display: inline-block;
 }
 .poll-radio-number {
-  padding-left: 17.5rem;
+  padding-left: 15.5rem;
   min-width: 10rem;
 }
 .poll-radio-number p {
@@ -117,7 +117,7 @@ body span {
 }
 .poll-radio-span {
   font-size: 1.5rem;
-  min-width: 15rem;
+  min-width: 13rem;
   display: inline-block;
 }
 /*.submit-btn {
@@ -128,6 +128,7 @@ body span {
 .submit-popup {
   text-align: center;
   padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 .submit-button {
   display: inline-block;
