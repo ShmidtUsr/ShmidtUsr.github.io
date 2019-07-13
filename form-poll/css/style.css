@@ -37,6 +37,7 @@ body span {
   background-color: #ebb258;
 }
 .main-header h2 {
+  margin: 0px 0px;
   text-align: center;
   color: #ffffff;
   font-size: 2.5rem;
@@ -52,15 +53,6 @@ body span {
 }
 .main-content p {
   text-align: left;
-}
-.unsubscribe {
-  text-align: center;
-}
-.unsubscribe-link {
-  color: #aaaaa8;
-}
-.unsubscribe-link:hover {
-  color: #777775;
 }
 .row-min-width {
   min-width: 51rem;
@@ -105,7 +97,7 @@ body span {
   display: inline-block;
 }
 .poll-radio-number {
-  padding-left: 15.5rem;
+  padding-left: 17rem;
   min-width: 10rem;
 }
 .poll-radio-number p {
@@ -117,7 +109,7 @@ body span {
 }
 .poll-radio-span {
   font-size: 1.5rem;
-  min-width: 13rem;
+  min-width: 14.5rem;
   display: inline-block;
 }
 /*.submit-btn {
@@ -144,6 +136,17 @@ body span {
   cursor: pointer;
   background-color: #a98518;
 }
+.unsubscribe {
+  min-width: 48rem;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.unsubscribe-link {
+  color: #aaaaa8;
+}
+.unsubscribe-link:hover {
+  color: #777775;
+}
 .text-input {
   border: none;
   border-bottom: 1px solid #aaaaa8;
@@ -155,8 +158,8 @@ body span {
   box-shadow: none;
 }
 /*Медиа-запросы*/
-@media (max-width: 767px) {
-  .container {
-    padding-left: 1.5rem;
+@media (max-width: 540px) {
+  .unsubscribe {
+    /*	min-width: 50rem;*/
   }
 }
