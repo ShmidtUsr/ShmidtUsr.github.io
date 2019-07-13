@@ -62,6 +62,9 @@ body span {
 .unsubscribe-link:hover {
   color: #777775;
 }
+.row-min-width {
+  min-width: 51rem;
+}
 .event {
   text-align: center;
 }
@@ -75,7 +78,7 @@ body span {
 }
 .poll-event {
   padding-top: none;
-  min-width: 45rem;
+  min-width: 40rem;
 }
 .poll-event p {
   display: inline-block;
@@ -103,7 +106,7 @@ body span {
 }
 .poll-radio-number {
   padding-left: 17.5rem;
-  min-width: 45rem;
+  min-width: 10rem;
 }
 .poll-radio-number p {
   display: inline-block;
@@ -124,7 +127,7 @@ body span {
 }*/
 .submit-popup {
   text-align: center;
-  padding: 2rem 0 3rem 0;
+  padding-top: 3rem;
 }
 .submit-button {
   display: inline-block;
@@ -144,7 +147,7 @@ body span {
   border: none;
   border-bottom: 1px solid #aaaaa8;
   outline-color: #d6a81e;
-  min-width: 47rem;
+  min-width: 25rem;
 }
 .text-input:focus {
   border: none;
